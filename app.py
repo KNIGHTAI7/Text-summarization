@@ -1,3 +1,6 @@
+import nltk
+nltk.download("punkt")
+nltk.download("punkt_tab")
 import streamlit as st
 import pickle
 from sumy.parsers.plaintext import PlaintextParser
